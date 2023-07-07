@@ -1,0 +1,1423 @@
+/* for all html elements */
+* {
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Poppins', sans-serif;
+
+    /* the borders dimentions within the container */
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#logo {
+    text-decoration: none;
+    color: #DA31F9;
+    font-weight: 560;
+    font-size: 1em;
+
+}
+
+a:hover {
+    border-bottom: 3px solid #5f5fdc;
+}
+
+.nav-link {
+    transition: all 0.1s;
+}
+
+a {
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.scroll-div {
+    scroll-behavior: smooth;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+}
+
+.navbar-item.active {
+    border-bottom: 3px solid #5f5fdc;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+/* main*/
+
+
+.main {
+
+    width: 100%;
+    height: 730px;
+    display: flex;
+    background-image: url(images/83-838362_web-developer.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+    font-size: larger;
+}
+
+.main h2 {
+    font-size: xxx-large;
+}
+
+
+
+.main span {
+    color: #DA31F9
+}
+
+.main h3 {
+    display: inline-block;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 25px
+}
+
+.contact-btn {
+    color: white;
+    background-color: #DA31F9;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 550px;
+    display: inline-block;
+    padding: 0.75em 1.95em;
+    letter-spacing: 1.3px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 0.7s ease;
+}
+
+.contact-btn:hover {
+    background-color: green;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin-left: 38px;
+}
+
+.social-icons {
+    color: white;
+    font-size: 60px;
+
+}
+
+.social-icons:hover {
+
+    color: green;
+}
+
+
+/*about*/
+
+
+
+.about {
+    /* border: #808080 3px solid; */
+    width: 100%;
+    margin-top: 80px;
+
+
+}
+
+.about h4 {
+    width: 100%;
+    align-content: center;
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    line-height: 0.1em;
+    border-color: #DA31F9;
+}
+
+h4 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.about-me-section {
+    width: 100%;
+    height: 640px;
+    align-items: center;
+}
+
+.about-text {
+    font-size: large;
+    width: 40%;
+    display: inline-block;
+    margin: 170px 0 120px 200px;
+}
+
+.personal-image {
+    width: 400px;
+    height: 300px;
+    float: right;
+    display: inline-block;
+    margin-top: 120px;
+    margin-right: 200px;
+}
+
+/*education*/
+
+
+.EDUCATION {
+    border: #808080 2px red;
+    width: 100%;
+
+    height: 820px;
+
+}
+
+.EDUCATION h4 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    border-color: #DA31F9;
+}
+
+
+.EDUCATION h4 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+
+.graduateion-hat1 {
+    width: 200px;
+    height: 220px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.edu-parag {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 160px;
+    font-size: 26px;
+    letter-spacing: 2px;
+    margin-top: 90px;
+
+}
+
+#grad-date {
+    font-size: small;
+    margin-left: 50px;
+    color: #808080;
+    font-weight: bold;
+}
+
+#uni-location {
+    font-size: small;
+    margin-left: 50px;
+    color: #808080;
+    font-weight: bold;
+}
+
+
+
+#CE {
+    color: #DA31F9;
+    font-weight: bold;
+    letter-spacing: 2.3px;
+}
+
+.certificate {
+    width: 170px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 200px;
+}
+
+.edu-list {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 160px;
+    font-size: 26px;
+    letter-spacing: 2px;
+    margin-top: 45px;
+}
+
+#edu-list {
+    list-style: square;
+}
+
+.EXPERIENCE {
+    height: 740px;
+    width: 100%;
+}
+
+.EXPERIENCE h4 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    border-color: #DA31F9;
+}
+
+
+.EXPERIENCE h4 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+
+.first-exp-grid {
+    padding-top: 22px;
+    display: grid;
+    grid-template-columns: 640px 100px 480px;
+    margin-left: 40px;
+
+
+}
+
+.grid-item1 {
+
+    padding: 24px;
+    font-size: 15px;
+    text-align: center;
+    grid-column: 1 / 2;
+    color: rgb(92, 89, 89);
+    justify-self: center;
+
+}
+
+.grid-item2 {
+
+    padding: 20px;
+
+    text-align: center;
+    grid-column: 2/3;
+
+}
+
+.grid-item3 {
+
+    padding-top: 20px;
+
+    font-size: 15px;
+    text-align: center;
+    grid-column: 3/4;
+    color: rgb(92, 89, 89);
+    text-align: left;
+    justify-self: right;
+}
+
+.line {
+    height: 400px;
+}
+
+/* skills*/
+.SKILLS {
+    height: 1430px
+}
+
+.SKILLS h4 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    border-color: #DA31F9;
+}
+
+
+.SKILLS h4 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.technical-heading {
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 24px;
+    color: #d071e1;
+    text-align: center;
+}
+
+.grid-skills-technical {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    row-gap: 55px;
+}
+
+.image-text {
+    text-align: center;
+}
+
+.img-skills {
+    width: 80px;
+    display: inline;
+}
+
+.soft-heading {
+    font-weight: normal;
+    font-size: 24px;
+    color: #d071e1;
+    text-align: center;
+}
+
+.grid-skills-soft {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    row-gap: 55px;
+}
+
+.image-text {
+    text-align: center;
+}
+
+.img-skills {
+    width: 80px;
+    display: inline;
+}
+
+.language {
+    margin: 70px 0px 400px 20px
+}
+
+.languages {
+    margin-left: 280px;
+    margin-top: 50px;
+}
+
+.lng {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.languages-p {
+    font-weight: normal;
+    font-size: 24px;
+    color: #d071e1;
+    text-align: center;
+}
+
+.progress-arabic {
+
+    max-width: 550px;
+    border: 2px solid #bbb;
+    height: 30px;
+    background-color: #bbb;
+    margin-left: 200px;
+}
+
+.progress-bar-arabic {
+    height: 100%;
+    width: 0%;
+    background-color: #d071e1;
+    animation-name: bar-arabic;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bar-arabic {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.percentage {
+
+    font-size: 15px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 700px;
+}
+
+.progress-english {
+
+    max-width: 550px;
+    border: 2px solid #bbb;
+    height: 30px;
+    background-color: #bbb;
+    margin-left: 200px;
+}
+
+.progress-bar-english {
+    height: 100%;
+    width: 0%;
+
+    background-color: #d071e1;
+    animation-name: bar-english;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@keyframes bar-english {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+
+
+/* references*/
+
+
+.REFERENCES {
+    width: 100%;
+    height: 660px;
+
+}
+
+.REFERENCES h4 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    border-color: #DA31F9;
+}
+
+
+.REFERENCES h4 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.image-coach {
+    width: 300px;
+    height: 300px;
+}
+
+.first-ref-card {
+    display: inline-block;
+    width: 360px;
+    height: 310px;
+    margin-left: 210px;
+    margin-top: 50px;
+    margin-right: 90px;
+
+}
+
+.second-ref-card {
+    display: inline-block;
+    width: 360px;
+    height: 310px;
+
+
+}
+
+
+.flip-card {
+    margin-top: 55px;
+    margin-left: 35%;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: whitesmoke;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back h1 {
+    color: #DA31F9;
+    margin-top: 30px
+}
+
+.flip-card-back p {
+    color: gray;
+    margin-top: 40px;
+}
+
+.hala-lin {
+    width: 15px;
+}
+
+
+.CONTACT {
+    width: 100%;
+}
+
+.CONTACT-ME h4 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    border-color: #DA31F9;
+}
+
+
+.CONTACT-ME h4 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 50px;
+    margin-left: 300px;
+}
+
+.footer-section {
+    width: 1400px;
+}
+
+.Logo-footer {
+    width: 160px;
+    font-weight: bold;
+}
+
+.contact-info h5 {
+    font-size: 25px;
+    color: #5f5fdc;
+    font-weight: bolder;
+}
+
+.contact-info {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.links-foot {
+    color: #5f5fdc;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.icons2 a {
+    font-size: 40px;
+}
+
+
+.Copyright {
+    font-size: small;
+    color: #808080;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* media query tablet*/
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+
+    #logo {
+        text-decoration: none;
+        color: #DA31F9;
+        font-weight: 560;
+        font-size: 1.5em;
+
+    }
+
+    .main {
+        height: 700px;
+        background-size: cover;
+        justify-content: flex-start;
+        padding: 40px;
+        width: 1250px;
+        align-items: center;
+    }
+
+    .center {
+        margin-top: 130px;
+        margin-left: 250px;
+    }
+
+    .main h2 {
+        font-size: xx-large;
+    }
+
+    .social-icons a {
+        text-decoration: none;
+        margin-left: 38px;
+        font-size: 50px;
+    }
+
+    .about {
+
+        width: 1250px;
+        margin-top: 80px;
+
+
+    }
+
+    .about h4 {
+        font-size: 30px;
+
+        line-height: 0.4em;
+        border-color: #DA31F9;
+    }
+
+
+    .about-text {
+        font-size: 22px;
+
+        margin: 110px 0 120px 80px;
+    }
+
+    .personal-image {
+        margin-top: 120px;
+        margin-right: 200px;
+    }
+
+    .EDUCATION {
+        border: #808080 2px red;
+        width: 100%;
+
+        height: 730px;
+
+    }
+
+    .EDUCATION h4 {
+        width: 1250px;
+
+        line-height: 0.4em;
+
+    }
+
+    .graduateion-hat1 {
+        width: 200px;
+        height: 210px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 60px;
+    }
+
+    .edu-width {
+        width: 1250px;
+    }
+
+    .edu-parag {
+
+        font-size: 24px;
+        margin-left: 50px;
+    }
+
+    #grad-date {
+        font-size: 24px;
+    }
+
+    #uni-location {
+        font-size: 24px;
+
+    }
+
+    .certificate {
+        width: 170px;
+        height: 150px;
+        display: inline-block;
+        margin-left: 80px;
+    }
+
+    .edu-list {
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 50px;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .EXPERIENCE {
+        width: 1250px;
+        height: 1200px;
+    }
+
+    .EXPERIENCE h4 {
+        line-height: 0.4em;
+
+    }
+
+
+    .EXPERIENCE h4 span {
+        font-size: 28px;
+    }
+
+
+    .first-exp-grid {
+
+        grid-template-columns: 450px 95px 500px;
+
+
+    }
+
+    .grid-item1 {
+
+        font-size: 27px;
+
+    }
+
+    .grid-item3 {
+
+
+        font-size: 24.5px;
+        margin-left: 60px;
+
+    }
+
+    .line {
+        height: 740px;
+    }
+
+    .SKILLS {
+        width: 1250px;
+        height: 1500px;
+
+    }
+
+    .SKILLS h4 {
+        line-height: 0.4em;
+        font-size: 40px;
+    }
+
+    .SKILLS h4 span {
+
+        font-size: 30px;
+    }
+
+    .technical-heading {
+
+        font-size: x-large;
+
+    }
+
+    .grid-skills-technical {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        row-gap: 55px;
+    }
+
+    .soft-heading {
+
+        font-size: x-large;
+
+    }
+
+    .languages {
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+
+    .lng {
+        margin-left: 100px;
+        font-size: 25px;
+
+    }
+
+    .languages-p {
+        font-weight: bolder;
+        font-size: 40px;
+
+    }
+
+    .progress-arabic {
+
+        max-width: 600px;
+
+        margin-left: 100px;
+    }
+
+    .progress-bar-arabic {
+
+        animation-name: bar-arabic;
+        animation-duration: 4s;
+
+
+    }
+
+    .progress-english {
+
+        max-width: 600px;
+
+        margin-left: 100px;
+    }
+
+    .progress-bar-english {
+
+        animation-name: bar-arabic;
+        animation-duration: 4s;
+
+
+    }
+
+    .percentage {
+
+        font-size: 20px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        margin-left: 650px;
+    }
+
+    .REFERENCES {
+        width: 1250px;
+
+
+    }
+
+    .REFERENCES h4 {
+        line-height: 0.4em;
+    }
+
+    .REFERENCES h4 span {
+        font-size: 30px;
+    }
+
+    .flip-card {
+
+        margin-left: -90px;
+    }
+
+
+    .contact-btn {
+        text-align: center;
+    }
+
+    .CONTACT-ME {
+        width: 1250px;
+    }
+
+    .CONTACT-ME h4 {
+        line-height: 0.4em;
+    }
+
+
+    .CONTACT-ME h4 span {
+        font-size: 30px;
+    }
+
+
+
+
+    .grid-footer {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        column-gap: 50px;
+        margin-left: 190px;
+        margin-top: 50px;
+    }
+
+    .footer-section {
+        width: 1400px;
+    }
+
+    .Logo-footer {
+        width: 160px;
+        font-weight: bold;
+    }
+
+    .contact-info h5 {
+        font-size: 25px;
+        color: #5f5fdc;
+        font-weight: bolder;
+    }
+
+    .contact-info {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .links-foot {
+        color: #5f5fdc;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    .icons2 a {
+        font-size: 40px;
+    }
+
+    .Copyright {
+        font-size: 14px;
+        margin-left: 410px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+
+
+    #logo {
+        text-decoration: none;
+        color: #DA31F9;
+        font-weight: 560;
+        font-size: 2.6em;
+
+    }
+
+    .navbar-toggler {
+        font-size: 50px;
+    }
+
+    nav a {
+        font-size: 80px;
+    }
+
+    .main {
+
+        background-size: cover;
+        justify-content: flex-start;
+        padding: 40px;
+        width: 1250px;
+        height: 950px;
+
+    }
+
+    .center {
+        margin-top: 80px;
+        margin-left: 260px;
+    }
+
+    .main span {
+        font-size: 160px;
+    }
+
+    .main h2 {
+        font-size: 80px
+    }
+
+    .main h3 {
+        font-size: 60px
+    }
+
+    .main h4 {
+        font-size: 40px;
+    }
+
+
+    .contact-btn {
+
+        font-size: 1.7em;
+
+        letter-spacing: 1.3px;
+
+    }
+
+
+    .social-icons a {
+        text-decoration: none;
+        margin-left: 38px;
+        font-size: 60px;
+    }
+
+
+    .about {
+
+        width: 1180px;
+        margin-top: 100px;
+        height: 1700px;
+    }
+
+    .about h4 {
+        font-size: 60px;
+        line-height: 0.4em;
+        border-color: #DA31F9;
+    }
+
+    .about-me-section {
+        width: 80%;
+        height: 1250px;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .about-text {
+        font-size: 49px;
+        width: 100%;
+        display: block;
+
+    }
+
+    .personal-image {
+        width: 580px;
+        height: auto;
+        float: none;
+        display: block;
+        margin-left: 300px;
+        margin-top: -90px;
+    }
+
+
+
+    .EDUCATION {
+        border: #808080 2px red;
+        width: 1180px;
+
+        height: 1390px;
+
+    }
+
+
+
+    .EDUCATION h4 span {
+        background: #fff;
+        padding: 0 10px;
+        font-size: 60px;
+    }
+
+
+    .graduateion-hat1 {
+        width: 200px;
+        height: 210px;
+        display: block;
+
+        margin-left: 500px;
+        margin-top: 80px;
+    }
+
+    .edu-parag {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 90px;
+        font-size: 46px;
+        letter-spacing: 2px;
+
+    }
+
+    #grad-date {
+        font-size: 28px;
+        margin-left: 30px;
+        color: #808080;
+        font-weight: bold;
+    }
+
+    #uni-location {
+        font-size: 28px;
+        margin-left: 10px;
+        color: #808080;
+        font-weight: bold;
+    }
+
+
+
+    #CE {
+        color: #DA31F9;
+        font-weight: bold;
+        letter-spacing: 2.3px;
+    }
+
+    .certificate {
+        width: 170px;
+        height: 150px;
+        display: block;
+        margin-left: 500px;
+    }
+
+    .edu-list {
+        display: block;
+        margin-top: 50px;
+        margin-left: 50px;
+        font-size: 37px;
+        letter-spacing: 2px;
+    }
+
+    .EXPERIENCE {
+        width: 1180px;
+        height: 1550px;
+    }
+
+
+
+    .EXPERIENCE h4 span {
+        font-size: 60px;
+    }
+
+
+    .first-exp-grid {
+
+        grid-template-columns: 370px 30px;
+
+
+    }
+
+    .grid-item1 {
+        font-weight: normal;
+        font-size: 35.5px;
+
+    }
+
+
+
+    .grid-item3 {
+        font-size: 38px;
+        margin-left: 22px;
+        font-weight: normal;
+
+    }
+
+    .line {
+        display: none;
+    }
+
+    .SKILLS {
+        width: 1250px;
+        height: 3399px;
+
+    }
+
+    .SKILLS h4 {
+        line-height: 0.4em;
+        font-size: 40px;
+    }
+
+
+    .SKILLS h4 span {
+
+        font-size: 62px;
+    }
+
+    .technical-heading {
+
+        font-size: 60px;
+
+    }
+
+    .grid-skills-technical {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        row-gap: 80px;
+    }
+
+
+    .soft-heading {
+
+        font-size: 60px;
+
+    }
+
+
+    .image-text {
+        font-size: 55px;
+
+    }
+
+    .img-skills {
+        width: 160px;
+
+    }
+
+
+    .grid-skills-soft {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        row-gap: 80px;
+    }
+
+
+
+
+    .languages {
+        margin-left: 180px;
+        margin-top: 70px;
+    }
+
+    .lng {
+
+        font-size: 46px;
+
+    }
+
+    .languages-p {
+        font-weight: bolder;
+        font-size: 58px;
+
+    }
+
+
+
+
+
+    .percentage {
+
+        font-size: 40px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        margin-left: 600px;
+    }
+
+
+
+
+    .REFERENCES {
+        width: 1250px;
+        height: 1300px;
+
+
+    }
+
+    .REFERENCES h4 {
+
+        line-height: 0.4em;
+
+    }
+
+
+    .REFERENCES h4 span {
+
+        font-size: 60px;
+    }
+
+    .image-coach {
+        width: 450px;
+        height: 450px;
+    }
+
+    .flip-card-inner {
+        margin-left: 290px;
+    }
+
+    .first-ref-card {
+        display: block;
+        margin-bottom: 200px;
+        margin-left: 85px;
+
+
+    }
+
+    .second-ref-card {
+        display: block;
+        margin-left: 85px;
+    }
+
+
+    .flip-card {
+        margin-top: 55px;
+        margin-left: 10%;
+    }
+
+
+    .CONTACT-ME {
+        width: 1250px;
+        height: 1000px;
+    }
+
+    .CONTACT-ME h4 {
+        line-height: 0.4em;
+    }
+
+
+    .CONTACT-ME h4 span {
+        font-size: 60px;
+    }
+
+
+    .contact-btn2 {
+        font-size: 34px;
+    }
+
+    .CONTACT-ME {
+        width: 1250px;
+    }
+
+    .CONTACT-ME h4 {
+        line-height: 0.4em;
+    }
+
+
+    .CONTACT-ME h4 span {
+        font-size: 60px;
+    }
+
+
+
+
+    .grid-footer {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        margin-left: 190px;
+        margin-top: 100px;
+    }
+
+    .footer-section {
+        width: 1400px;
+    }
+
+
+    .contact-info h5 {
+        font-size: 68px;
+        color: #DA31F9;
+        font-weight: bold;
+    }
+
+    .contact-info {
+        font-size: 50px;
+        grid-column: 1/13;
+        font-weight: normal;
+        margin-bottom: 60px;
+    }
+
+    .links-foot {
+        color: #5f5fdc;
+        font-size: 60px;
+        text-decoration: underline;
+    }
+
+    .icons2 a {
+        font-size: 60px;
+        margin-left: 100px;
+    }
+
+    .Copyright {
+        font-size: 35px;
+        width: 1100px;
+        text-align: center;
+    }
+
+}
